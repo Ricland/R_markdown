@@ -3,10 +3,10 @@ title: "Виды анализа и R Markdown"
 author: "Баженов Владислав"
 date: "25 10 2021"
 output:
-  pdf_document:
-    latex_engine: xelatex
   html_document:
     df_print: paged
+  pdf_document:
+    latex_engine: xelatex
 keep_markdown: yes
 keep_tex: yes
 header-includes:
@@ -131,3 +131,5 @@ $$K_{t+1}=N_{t}e^{r(1-\frac{N_{t}}{K})^\theta}$$
 ### Выводы
 
 Поскольку рассмотренное исследование имело дело с ситуацией, которая может быть смоделирована с помощью уравнения, а также обнаружило определённую связь между переменными с высоким уровнем доверия, можно считать, что исследование использовано механистический анализ данных.
+
+<code>[Ссылка на репозиторий GitHub](https://github.com/Ricland/R_markdown)</code>
